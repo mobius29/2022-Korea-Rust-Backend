@@ -6,13 +6,43 @@ pub struct Player {
 
 impl Player {
     pub fn revive(&self) -> Option<Player> {
-        unimplemented!("Revive this player")
+        // when the player's health is 1 or above
+        if self.health > 0 {
+            return None;
+        }
+
+        // when the player is dead
+
+        // when the player's level is 10 or above
+        if self.level >= 10 {
+            return Some(Player{ health: 100, mana: Some(100), level: self.level});
+        }
+
+        // when the player's level is lower than 10
+        else {
+            return Some(Player{ health: 100, mana: None, level: self.level});
+        }
     }
 
     pub fn cast_spell(&mut self, mana_cost: u32) -> u32 {
-        unimplemented!("Cast a spell of cost {}", mana_cost)
+        if self.mana.is_none() {
+            if self.health < mana_cost {
+                self.health = 0;
+            } else {
+                self.health = self.health - mana_cost;
+            }
+            return 0;
+        } else {
+            if self.mana.unwrap() < mana_cost {
+                return 0;
+            } else {
+                self.mana = Some(self.mana.unwrap() - mana_cost);
+                return mana_cost * 2;
+            }
+        }
     }
 }
+
 
 #[test]
 fn test_reviving_dead_player() {

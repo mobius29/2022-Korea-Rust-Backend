@@ -3,10 +3,10 @@ use std::collections::HashMap;
 /// Count occurrences of words.
 pub fn word_count(words: &str) -> HashMap<String, u32> {
     let mut hashmap: HashMap<String, u32> = HashMap::new();
-    let punc: [char; 18] = [' ', ',', ':', '\n', '\t', '.', '!', '&', '!', '@', '#', '$', '%', '^', '&', '*', '(', ')']; 
+    const PUNC: [char; 18] = [' ', ',', ':', '\n', '\t', '.', '!', '&', '!', '@', '#', '$', '%', '^', '&', '*', '(', ')']; 
 
     let str_vec: Vec<&str> =
-            words.split(&punc[..])
+            words.split(&PUNC[..])
             .collect();
 
     for word in str_vec.iter() {
@@ -34,7 +34,7 @@ pub fn word_count(words: &str) -> HashMap<String, u32> {
             }
         };
     };
-    
+
     return hashmap;
 }
 

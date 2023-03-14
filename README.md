@@ -4,29 +4,83 @@
 
 ## Contents
 
+### Part 1
+
 - Week 0 (9/27) [[Lecture]](./1%20-%20Lecture/220927%20-%20Rust%20Basic%20%2B%20Backend%20Programming%2C%20Week%200.pdf)
   - Introduction
 - Week 1 (9/27) [[Lecture]](./1%20-%20Lecture/220927%20-%20Rust%20Basic%20%2B%20Backend%20Programming%2C%20Week%201.pdf) [[Assignment]](./3%20-%20Assignment/220927%20-%20Rust%20Basic%20%2B%20Backend%20Programming%2C%20Week%201) [[Solution]](./4%20-%20Solution/220927%20-%20Rust%20Basic%20%2B%20Backend%20Programming%2C%20Week%201)
   - A Tour of Rust, Part 1
   - Assignment #1
-- Week 2 (10/4) [[Lecture]](./1%20-%20Lecture/221004%20-%20Rust%20Basic%20%2B%20Backend%20Programming%2C%20Week%202.pdf) [[Assignment]](./3%20-%20Assignment/221004%20-%20Rust%20Basic%20%2B%20Backend%20Programming%2C%20Week%202)
+- Week 2 (10/4) [[Lecture]](./1%20-%20Lecture/221004%20-%20Rust%20Basic%20%2B%20Backend%20Programming%2C%20Week%202.pdf) [[Assignment]](./3%20-%20Assignment/221004%20-%20Rust%20Basic%20%2B%20Backend%20Programming%2C%20Week%202) [[Solution]](./4%20-%20Solution/221004%20-%20Rust%20Basic%20%2B%20Backend%20Programming%2C%20Week%202)
+  - Explanation of Assignment #1
   - A Tour of Rust, Part 2
   - Assignment #2
-- Week 3 (10/25)
+- Week 3 (11/1)
+  - Explanation of Assignment #2
+- Week 4 (11/8) [[Example]](./2%20-%20Example/221108%20-%20Rust%20Basic%20%2B%20Backend%20Programming%2C%20Week%204)
   - Backend Development, Part 1
     - Building an Email Newsletter
-    - Sign Up a New Subscriber
-    - Telemetry
-    - Going Live
-- Week 4 (11/1)
+    - Sign Up a New Subscriber #1
+      - Choosing A Web Framework
+      - Our First Endpoint: A Basic Health Check
+      - Our First Integration Test
+      - Implementing Our First Integration Test    
+- Week 5 (11/15) [[Example]](./2%20-%20Example/221115%20-%20Rust%20Basic%20%2B%20Backend%20Programming%2C%20Week%205)
   - Backend Development, Part 2
-    - Reject Invalid Subscriber #1
-    - Reject Invalid Subscriber #2
-    - Error Handling
-- Week 5 (11/8)
+    - Sign Up a New Subscriber #2
+      - Polishing & Refocus
+      - Working With HTML Forms
+      - Storing Data: Databases
+- Week 6 (11/22) [[Example]](./2%20-%20Example/221122%20-%20Rust%20Basic%20%2B%20Backend%20Programming%2C%20Week%206)
   - Backend Development, Part 3
+    - Sign Up a New Subscriber #3
+      - Storing Data: Databases
+      - Persisting A New Subscriber
+      - Updating Our Tests
+
+### Part 2
+
+- Week 0 (1/14) [[Lecture]](./1%20-%20Lecture/230114%20-%20Rust%20Basic%20%2B%20Backend%20Programming%2C%20Week%200.pdf)
+  - Introduction
+- Week 7 (1/28) [[Example]](./2%20-%20Example/230128%20-%20Rust%20Basic%20%2B%20Backend%20Programming%2C%20Week%207)
+  - Backend Development, Part 4
+    - Telemetry
+- Week 8 (1/31) [[Example]](./2%20-%20Example/230131%20-%20Rust%20Basic%20%2B%20Backend%20Programming%2C%20Week%208)
+  - Backend Development, Part 5
+    - Going Live
+- Week 9 (2/7) [[Example]](./2%20-%20Example/230207%20-%20Rust%20Basic%20%2B%20Backend%20Programming%2C%20Week%209)
+  - Backend Development, Part 6
+    - Reject Invalid Subscriber #1
+- Week 10 (2/14) [[Example]](./2%20-%20Example/230214%20-%20Rust%20Basic%20%2B%20Backend%20Programming%2C%20Week%2010)
+  - Backend Development, Part 7
+    - Reject Invalid Subscriber #2
+- Week 11 (3/10) [[Lecture]](./1%20-%20Lecture/230310%20-%20Rust%20Basic%20%2B%20Backend%20Programming%2C%20Week%2011.pdf) [[Assignment]](./3%20-%20Assignment/230310%20-%20Rust%20Basic%20%2B%20Backend%20Programming%2C%20Week%2011)
+  - A Tour of Rust, Part 3
+  - Assignment #3
+- Week 12 (3/14)
+  - A Tour of Rust, Part 4
+  - Assignment #4
+- Week 13 (3/21)
+  - A Tour of Rust, Part 5
+  - Assignment #5
+- Week 14 (3/28)
+  - Backend Development, Part 8
+    - Reject Invalid Subscriber #3
+- Week 15 (4/4)
+  - Backend Development, Part 9
+    - Reject Invalid Subscriber #4
+- Week 16 (4/11)
+  - Backend Development, Part 10
+    - Error Handling
     - Naive Newsletter Delivery
-    - Securing Our API
+- Week 17 (TBA)
+  - Backend Development, Part 11
+    - Securing Our API #1
+- Week 18 (TBA)
+  - Backend Development, Part 12
+    - Securing Our API #2
+- Week 19 (TBA)
+  - Backend Development, Part 13
     - Fault-tolerant Workflow
 
 ## References

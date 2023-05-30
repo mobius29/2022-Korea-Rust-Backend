@@ -68,21 +68,24 @@
 - Week 15 (5/9) [[Example]](./2%20-%20Example/230509%20-%20Rust%20Basic%20%2B%20Backend%20Programming%2C%20Week%2015/)
   - Backend Development, Part 8
     - Reject Invalid Subscriber #3
-- Week 16 (5/16)
+- Week 16 (5/16) [[Example]](./2%20-%20Example/230516%20-%20Rust%20Basic%20%2B%20Backend%20Programming%2C%20Week%2016/)
   - Backend Development, Part 9
     - Reject Invalid Subscriber #4
-- Week 17 (5/23)
+- Week 17 (5/30)
   - Backend Development, Part 10
+    - Reject Invalid Subscriber #5
+- Week 18 (6/27)
+  - Backend Development, Part 11
     - Error Handling
     - Naive Newsletter Delivery
-- Week 18 (5/30)
-  - Backend Development, Part 11
-    - Securing Our API #1
-- Week 19 (6/6)
+- Week 19 (7/4)
   - Backend Development, Part 12
-    - Securing Our API #2
-- Week 20 (6/27)
+    - Securing Our API #1
+- Week 20 (7/11)
   - Backend Development, Part 13
+    - Securing Our API #2
+- Week 21 (7/18)
+  - Backend Development, Part 14
     - Fault-tolerant Workflow
 
 ## References

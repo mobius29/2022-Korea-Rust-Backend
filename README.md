@@ -104,10 +104,10 @@
 - Week 27 (9/11) [[Example]](./2%20-%20Example/230911%20-%20Rust%20Basic%20%2B%20Backend%20Programming%2C%20Week%2027/)
   - Backend Development, Part 20
     - Securing Our API #8
-- Week 28 (9/18)
+- Week 28 (9/18) [[Example]](./2%20-%20Example/230918%20-%20Rust%20Basic%20%2B%20Backend%20Programming%2C%20Week%2028/)
   - Backend Development, Part 21
     - Fault-tolerant Workflow #1
-- Week 29 (9/25)
+- Week 29 (9/24) [[Example]](./2%20-%20Example/230924%20-%20Rust%20Basic%20%2B%20Backend%20Programming%2C%20Week%2029/)
   - Backend Development, Part 22
     - Fault-tolerant Workflow #2
 
